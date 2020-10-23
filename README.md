@@ -1,9 +1,5 @@
 # php short code
  Php Short code
-Ishlatish va tushunish uchun shunchaki faylni yuklab oling Openserverdagi yoki hostingingizda papka ochib o`sha faylga ikkala faylni tashlang va index.php ayliga kiring
-
-Namuna: 
-![namuna](https://raw.githubusercontent.com/akbarali1/php-short-code/main/photo_2020-10-23_09-58-03.jpg)
 
 Kod 2020 yil 23-oktyabrda qayda taxrirlandi va OOP ga foydalanish oson bo'lishi uchun o'tkazildi.
 
@@ -28,3 +24,6 @@ echo $textsort->textsort($text);
 # The [Field_calculate](https://github.com/NielBuys/Field_calculate) library was used
 
 # [Field_calculate](https://github.com/NielBuys/Field_calculate) kutubhonasidan foydalanilgan
+
+Namuna | Example: 
+![namuna](https://raw.githubusercontent.com/akbarali1/php-short-code/main/photo_2020-10-23_09-58-03.jpg)
