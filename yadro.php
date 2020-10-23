@@ -44,3 +44,20 @@ class Field_calculate {
         return 0;
     }
 }
+/*
+ * Akbarali yozgan OOP dagi kod
+ */
+class ShortCode {
+    public function textsort($input) {
+        preg_match_all("|\{(.*)\}|U", $input, $req);
+        if (!empty($req{1})) {
+            foreach ($req{1} as $row) {
+                $Cal = new Field_calculate();
+                $replase = $Cal->calculate($row);
+                $input = str_ireplace('{' . $row . '}', $replase, $input);
+            }
+        }
+        return $input;
+    }
+   
+}
